@@ -19,8 +19,8 @@ def generate_response(prompt, qa):
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="Green Metrics")
-    st.header("Green Metrics Bot")
+    st.set_page_config(page_title="🌱 Sustainabot")
+    st.header("🌱 Sustainabot")
 
     if 'generated' not in st.session_state:
         st.session_state['generated'] = []
